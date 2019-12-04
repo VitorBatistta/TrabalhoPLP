@@ -1,30 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
+  <!-- início do head -->
   <meta charset="UTF-8">
   <meta name="description" content="">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <!-- título da página -->
   <title>E-learning &amp; PLP</title>
-  <link rel="icon" href="img/core-img/favicon.ico">
+  <!-- pega o arquivo style.css -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="preloader d-flex align-items-center justify-content-center">
-    <div class="spinner">
-      <div class="double-bounce1"></div>
-      <div class="double-bounce2"></div>
-    </div>
-  </div>
+<!-- início do body -->
   <header class="header-area">
     <div class="videomag-main-menu" id="sticker">
       <div class="classy-nav-container breakpoint-off">
         <div class="container-fluid">
           <nav class="classy-navbar justify-content-between" id="videomagNav">
             <div class="classy-navbar-toggler">
-              <span class="navbarToggler"><span></span><span></span><span></span></span>
+              <!-- class nav do menu -->
             </div>
             <div class="classy-menu">
               <div class="classycloseIcon">
@@ -57,11 +52,13 @@
       <div class="col-12 col-lg-8">
         <div class="post-details-content mb-100">
           <div class="single-blog-post style2 mb-50">
+			<!--método POST chama a página do resultado php -->
             <form method="POST" required action="resultadopoo.php">
               <h1>Questionário Orientado a Objetos</h1>
               <article>
                 <p>
                   <b><label>
+					  <!-- Perguntas -->
                       <h5>1 - Qual das linguagens abaixo é Orientada a Objetos ?
                     </label></h5>
                     <input type="radio" name="perg1" value="opt1" /> Prolog<br>
@@ -96,6 +93,7 @@
                 </p>
               </article>
               <div class="col-12">
+				  <!-- Botão resultado questionário -->
                 <button class="btn videomag-btn mt-30" type="submit">VER RESULTADO</button>
               </div>
             </form>
@@ -105,6 +103,7 @@
     </div>
   </div>
   </div>
+  <!-- scripts design da página -->
   <script src="js/jquery/jquery-2.2.4.min.js"></script>
   <script src="js/bootstrap/popper.min.js"></script>
   <script src="js/bootstrap/bootstrap.min.js"></script>
